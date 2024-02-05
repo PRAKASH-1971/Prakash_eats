@@ -1,0 +1,194 @@
+.foods {
+  width: 85vw;
+  height: fit-content;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.row {
+  width: 90vw;
+  margin: auto !important;
+  overflow-x: hidden;
+}
+
+.row h4 {
+  margin: 20px 0px 10px -13px;
+}
+
+.row-posters {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+  overflow-x: scroll;
+  transition: transform 500ms;
+  margin-left: -10px;
+  padding: 20px 0px 20px 0px;
+}
+
+.row-posters::-webkit-scrollbar {
+  display: none;
+}
+
+.ccard {
+  width: 255px !important;
+  height: fit-content;
+  border-radius: 20px;
+  margin-right: 25px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.imgg {
+  width: 255px !important;
+  height: 230px !important;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgb(249, 249, 249);
+}
+
+.ccard p {
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+
+.ccard .itemname {
+  margin: 5px auto;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+
+.qunty {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+
+.card-detail {
+  width: 235px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  padding: 5px 5px 5px 15px;
+}
+
+.card-detail-left h5 {
+  margin-right: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+
+.card-detail-left {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  justify-content: space-around;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+
+.card-detail-right button {
+  border: 1px solid rgb(223, 248, 6);
+  padding: 3px 15px;
+  border-radius: 15px;
+  background: #efe705;
+  color: rgb(65, 65, 57);
+  font-size: 14px;
+  font-weight: 600;
+}
+hr {
+  z-index: 0;
+}
+
+
+
+@media(max-width:800px) {
+  .foods {
+    width: 100vw;
+    height: fit-content;
+    margin: auto;
+    overflow-x: scroll;
+    padding: 0px 10px;
+  }
+  .imgg {
+    width: 220px !important;
+    height: 190px !important;
+  }
+}
+
+
+@media(max-width:450px) {
+.row {
+    width: 94vw !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.row h4 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 650;
+    margin: 10px 0px !important;
+}
+
+.row-posters {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
+    transition: transform 500ms;
+    padding: 5px 0px 5px 0px !important;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.ccard {
+    max-width: 160px !important;
+    height: fit-content !important;
+    margin-right: 8px !important;
+}
+.imgg {
+    max-width: 160px !important;
+    width: 160px !important;
+    max-height: 150px !important;
+    height: 150px !important;
+}
+.del {
+    font-size: 13px;
+}
+.itemname {
+    font-weight: 650 !important;
+    font-size: 14px !important;
+    font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.qunty {
+    font-size: 13px !important;
+    width: 100% !important;
+    overflow-y: hidden;
+    font-weight: 550;
+    max-height: 38px;
+    font-family: 'Kanit', sans-serif !important;
+  }
+
+.card-detail {
+  width: 98%;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.card-detail-left h5 {
+  font-size: 14px !important;
+  font-weight: 650 !important;
+  padding-left: 5px;
+  font-family: 'Bricolage Grotesque', sans-serif !important;
+}
+.card-detail-right button {
+    font-size: 13px !important;
+}
+
+}
